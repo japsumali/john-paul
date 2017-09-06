@@ -15,6 +15,12 @@
 	border: 20px;
 	margin-top: 30px;
 }
+.main {
+	text-align: center;
+	width: 1000px;
+	height: 0 auto;
+	margin: 0 auto;
+}
 
 h1 {
 	margin: 0 auto;
@@ -48,9 +54,42 @@ li,
 	font-family: 'Sanchez', serif;
 }
 
+a.column:hover,
+a.home:hover,
+a.about:hover,
+a.contact:hover,
+a.facebook:hover,
+a.twitter:hover,
+a.pinterest:hover {
+	background-color: #5A5B5D;
+}
 .img {
-	width: 100%;
+	width: 1000px;
 	height: 0 auto;
+	margin: 0 auto;
+}
+
+main {
+	width: 1000px;
+	height: 0 auto;
+	margin: 0 auto;
+}
+
+.mainTitle,
+.main1 {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	color: black;
+}
+
+a.main1:hover {
+ 	color: grey;
+ 	text-decoration: none;
+}
+
+.icon {
+	text-align: center;
 }
 
 footer {
@@ -60,3 +99,13 @@ footer {
 	padding: 20px;
 }
 
+.imgMain {
+	width: 90%;
+	height: 610px;
+	text-align: center;
+}
+
+hr {
+	width: 90%;
+	margin: 0 auto;
+}
